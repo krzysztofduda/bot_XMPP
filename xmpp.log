@@ -1,0 +1,21 @@
+Wed Dec 12 14:05:14 2012 - SENT: - <?xml version='1.0' encoding='UTF-8' ?>                   <stream:stream to='gmail.com' xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams'>
+Wed Dec 12 14:05:14 2012 - RECV: - <stream:stream from="gmail.com" id="996ADCEC17C1B349" xmlns:stream="http://etherx.jabber.org/streams" xmlns="jabber:client">
+Wed Dec 12 14:05:14 2012 - SENT: - <iq type='get' id='auth-get'><query xmlns = 'jabber:iq:auth' ><username>testowe1993</username></query></iq>
+Wed Dec 12 14:05:14 2012 - RECV: - <iq id="auth-get" type="result"><query xmlns="jabber:iq:auth"><username/><resource/><password/></query></iq>
+Wed Dec 12 14:05:14 2012 - SENT: - <iq type='set' id='auth-set'><query xmlns = 'jabber:iq:auth' ><username>testowe1993</username><resource>conference</resource><password>testowe93</password></query></iq>
+Wed Dec 12 14:05:14 2012 - RECV: - <iq id="auth-set" type="result"/>
+Wed Dec 12 14:05:14 2012 - SENT: - <iq type='get' id='1'><query xmlns = 'jabber:iq:roster' ></query></iq>
+Wed Dec 12 14:05:14 2012 - RECV: -  
+Wed Dec 12 14:05:15 2012 - RECV: - <iq to="testowe1993@gmail.com/conference" id="1" type="result"><query xmlns="jabber:iq:roster"><item jid="szymon.ron@gmail.com" subscription="both"/><item jid="lczernecki93@gmail.com" subscription="both"/><item jid="kkrroolliikk@gmail.com" subscription="both"/></query></iq>
+Wed Dec 12 14:05:15 2012 - SENT: - <presence></presence>
+Wed Dec 12 14:05:15 2012 - SENT: - <presence><status>Ready</status></presence>
+Wed Dec 12 14:05:15 2012 - SENT: - <presence from='testowe1993@gmail.com/conference'></presence>
+Wed Dec 12 14:05:15 2012 - SENT: - <presence><status>Ready</status></presence>
+Wed Dec 12 14:05:15 2012 - SENT: - <message to='testowe1993@gmail.com/conference'><body>Q1355317515:2012-12-12 14:05:15</body><active xmlns='http://jabber.org/protocol/chatstates'></active></message>
+Wed Dec 12 14:05:15 2012 - RECV: -  
+Wed Dec 12 14:05:15 2012 - RECV: - <presence from="lczernecki93@gmail.com/gmail.7D5A0C01" to="testowe1993@gmail.com/conference"><show>away</show><priority>0</priority><caps:c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="pmuc-v1 sms-v1 vavinvite-v1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo/></x></presence>
+Wed Dec 12 14:05:15 2012 - RECV: -  
+Wed Dec 12 14:05:15 2012 - RECV: - <message to="testowe1993@gmail.com/conference" from="testowe1993@gmail.com/conference"><body>Q1355317515:2012-12-12 14:05:15</body><active xmlns="http://jabber.org/protocol/chatstates"/></message>
+Wed Dec 12 14:05:15 2012 - RECV: - <presence from="kkrroolliikk@gmail.com/gmail.7D5D050E" to="testowe1993@gmail.com/conference"><status/><priority>24</priority><caps:c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="pmuc-v1 sms-v1 vavinvite-v1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo/></x></presence>
+Wed Dec 12 14:05:15 2012 - RECV: - <presence from="szymon.ron@gmail.com/gmail.68F747F0" to="testowe1993@gmail.com/conference"><status/><priority>24</priority><caps:c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="pmuc-v1 sms-v1 vavinvite-v1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo>d3e66a1e88418292d092aa3daaac921a78a3fd82</photo></x></presence>
+Wed Dec 12 14:05:40 2012 - RECV: -  
