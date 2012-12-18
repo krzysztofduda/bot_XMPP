@@ -77,7 +77,7 @@ import threading
 import pywapi
 import pprint
 
-
+#parsowanie html
 from HTMLParser import HTMLParser
 import urllib, urllib2
 
