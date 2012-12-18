@@ -4,7 +4,7 @@
 # Copyleft GPL
 # $Revision$
 # you can see http://wiki.woodpecker.org.cn/moin/Dict4Ini for more details
-
+#ahahahahahhahaah
 __version__ = '0.1'
 
 import sys
